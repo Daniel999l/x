@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css trial</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+      body {
+        overflow: hidden;
+        background-color: antiquewhite;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+    }
+    .button:active {
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    }
+    .button {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        width: 157px;
+        height: 56px;
+        background: linear-gradient(to bottom right, #71A6F5, #42618F);
+        border-radius: 8px;
+        border: 1px solid black;
+
+    }
+    .one {
+        width: 21px;
+        height: 21px;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    
+    p {
+        font-size: 20px;
+        font-weight: 500;
+        color: white
+    }
+</style>
+<body>
+    <div class="button">
+        <div class="one"></div>
+        <div class="two">
+            <p>Button</p>
+        </div>
+    </div>
+</body>
+</html>
